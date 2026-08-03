@@ -90,7 +90,7 @@ touch .env
 
 4. **Configure environment variables**
 ```env
-PORT=5000
+PORT=5001
 NODE_ENV=development
 DB_USER=postgres
 DB_PASSWORD=your_password
@@ -172,7 +172,7 @@ CREATE INDEX idx_coupons_code ON coupons(code);
 npm run dev
 ```
 
-The API will be available at `http://localhost:5000`
+The API will be available at `http://localhost:5001`
 
 ---
 
@@ -182,7 +182,7 @@ The API will be available at `http://localhost:5000`
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `PORT` | Server port | 5000 |
+| `PORT` | Server port | 5001 |
 | `NODE_ENV` | Environment (development/production) | development |
 | `DB_USER` | PostgreSQL username | postgres |
 | `DB_PASSWORD` | PostgreSQL password | - |
@@ -196,7 +196,7 @@ The API will be available at `http://localhost:5000`
 
 ### Base URL
 ```
-http://localhost:5000/api/v1
+http://localhost:5001/api/v1
 ```
 
 ### Health Check
@@ -219,7 +219,7 @@ GET /health
 
 **Example: Create Product**
 ```bash
-curl -X POST http://localhost:5000/api/v1/products \
+curl -X POST http://localhost:5001/api/v1/products \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Laptop",
@@ -243,7 +243,7 @@ curl -X POST http://localhost:5000/api/v1/products \
 
 **Example: Create Order**
 ```bash
-curl -X POST http://localhost:5000/api/v1/orders \
+curl -X POST http://localhost:5001/api/v1/orders \
   -H "Content-Type: application/json" \
   -d '{
     "items": [
@@ -268,7 +268,7 @@ curl -X POST http://localhost:5000/api/v1/orders \
 
 **Example: Create Coupon**
 ```bash
-curl -X POST http://localhost:5000/api/v1/coupons \
+curl -X POST http://localhost:5001/api/v1/coupons \
   -H "Content-Type: application/json" \
   -d '{
     "code": "SAVE20",
@@ -282,7 +282,7 @@ curl -X POST http://localhost:5000/api/v1/coupons \
 
 **Example: Validate Coupon**
 ```bash
-curl -X POST http://localhost:5000/api/v1/coupons/validate \
+curl -X POST http://localhost:5001/api/v1/coupons/validate \
   -H "Content-Type: application/json" \
   -d '{
     "code": "SAVE20",
