@@ -4,7 +4,7 @@ A production-grade RESTful API for managing e-commerce products, orders, and dis
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -18,38 +18,38 @@ A production-grade RESTful API for managing e-commerce products, orders, and dis
 
 ---
 
-## ✨ Features
+## Features
 
 ### Product Management
-- ✅ CRUD operations for products
-- ✅ Real-time inventory tracking
-- ✅ Product search and filtering by category
-- ✅ Pagination support
+- CRUD operations for products
+- Real-time inventory tracking
+- Product search and filtering by category
+- Pagination support
 
 ### Order Management
-- ✅ Create orders with automatic stock deduction
-- ✅ Transaction-safe order processing (all-or-nothing)
-- ✅ Order status tracking (pending, processing, shipped, delivered, cancelled)
-- ✅ Order history and analytics
-- ✅ Automatic stock restoration on cancellation
+- Create orders with automatic stock deduction
+- Transaction-safe order processing (all-or-nothing)
+- Order status tracking (pending, processing, shipped, delivered, cancelled)
+- Order history and analytics
+- Automatic stock restoration on cancellation
 
 ### Discount & Coupons
-- ✅ Percentage-based discounts
-- ✅ Fixed-amount discounts
-- ✅ Coupon validation with rules
-- ✅ Usage limits and expiration dates
-- ✅ Minimum order amount requirements
+- Percentage-based discounts
+- Fixed-amount discounts
+- Coupon validation with rules
+- Usage limits and expiration dates
+- Minimum order amount requirements
 
 ### Code Quality
-- ✅ Comprehensive logging system
-- ✅ Error handling and validation
-- ✅ Unit tests with Jest (15+ test cases)
-- ✅ Database transactions for data integrity
-- ✅ API versioning (/api/v1/)
+- Comprehensive logging system
+- Error handling and validation
+- Unit tests with Jest (15+ test cases)
+- Database transactions for data integrity
+- API versioning (/api/v1/)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -63,7 +63,7 @@ A production-grade RESTful API for managing e-commerce products, orders, and dis
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Node.js (v14+)
@@ -176,7 +176,7 @@ The API will be available at `http://localhost:5000`
 
 ---
 
-## 🔌 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -192,7 +192,7 @@ The API will be available at `http://localhost:5000`
 
 ---
 
-## 📚 API Endpoints
+## API Endpoints
 
 ### Base URL
 ```
@@ -292,7 +292,7 @@ curl -X POST http://localhost:5000/api/v1/coupons/validate \
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Run all tests
 ```bash
@@ -305,15 +305,15 @@ npm run test:watch
 ```
 
 ### Test Coverage
-- ✅ Product CRUD operations
-- ✅ Stock deduction and validation
-- ✅ Order creation with transactions
-- ✅ Coupon validation and calculations
-- ✅ Error handling and edge cases
+- Product CRUD operations
+- Stock deduction and validation
+- Order creation with transactions
+- Coupon validation and calculations
+- Error handling and edge cases
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Folder Structure
 ```
@@ -357,7 +357,7 @@ ecommerce-api/
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Option 1: Render.com (Recommended)
 
@@ -396,7 +396,7 @@ ecommerce-api/
 
 ---
 
-## 📊 Performance Considerations
+## Performance Considerations
 
 - **Database Indexes** - Optimized queries for product category and order status
 - **Connection Pooling** - Efficient database connection management
@@ -405,7 +405,7 @@ ecommerce-api/
 
 ---
 
-## 🔒 Security Features (Phase 2)
+## Security Features (Phase 2)
 
 - Input validation and sanitization
 - Error messages don't leak sensitive data
@@ -414,7 +414,7 @@ ecommerce-api/
 
 ---
 
-## 📝 API Response Format
+## API Response Format
 
 All responses follow a consistent format:
 
@@ -439,7 +439,7 @@ All responses follow a consistent format:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -449,15 +449,15 @@ All responses follow a consistent format:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
 
-## 🎯 Roadmap
+## Roadmap
 
-### Phase 1 (Complete) ✅
+### Phase 1 (Complete) 
 - [x] Product management
 - [x] Order processing
 - [x] Inventory tracking
@@ -477,10 +477,10 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
 
-## 📧 Support
+## Support
 
 For issues or questions, please create an issue in the repository.
 
 ---
 
-**Built with ❤️ by Jenny Rose Angeles**
+**Built with by Jenny Rose Angeles**
