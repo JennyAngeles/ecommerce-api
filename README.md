@@ -1,6 +1,10 @@
 # E-Commerce Inventory Management API
 
+**Live Demo Dashboard:** https://ecommerce-dashboard-iota-nine.vercel.app/app  
+**Dashboard shows real data from this API**
+
 A production-grade RESTful API for managing e-commerce products, orders, and discount coupons. Built with Node.js, Express, and PostgreSQL.
+
 
 ---
 
